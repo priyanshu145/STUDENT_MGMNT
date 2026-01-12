@@ -2,4 +2,4 @@
 
 
 
-django = 3.
+django = 5.0.1
