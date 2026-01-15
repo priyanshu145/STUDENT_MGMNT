@@ -33,8 +33,9 @@ cd project_name
 ## to create an app
 python manage.py startapp app_name  
 
-## to run the project
+
 python manage.py runserver
+
 
 
 
