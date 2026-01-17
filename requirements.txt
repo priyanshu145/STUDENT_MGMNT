@@ -1,5 +1,3 @@
-
-
-
+# for project dependency
 
 django == 5.0.1
