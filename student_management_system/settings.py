@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'STUDENT_MGMNT.urls'
+ROOT_URLCONF = 'student_management_system.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'STUDENT_MGMNT.wsgi.application'
+WSGI_APPLICATION = 'student_management_system.wsgi.application'
 
 
 # Database

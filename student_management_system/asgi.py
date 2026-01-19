@@ -1,5 +1,5 @@
 """
-ASGI config for STUDENT_MGMNT project.
+ASGI config for Student_Management_System project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'STUDENT_MGMNT.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'student_management_system.settings')
 
 application = get_asgi_application()

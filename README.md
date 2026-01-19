@@ -25,10 +25,10 @@ venv\Scripts\activate
 pip install django  
 
 ## to create a project
-django-admin startproject project_name  
+django-admin startproject STUDENT_MGMNT 
 
 ## go inside the project folder
-cd project_name  
+cd STUDENT_MGMNT 
 
 ## to create an app
 python manage.py startapp app_name  
@@ -40,30 +40,7 @@ python manage.py runserver
 
 
 
-## to link with git
 
-## hidden .git directory in project
-git init   
-
-git config --global user.name "Priyanshu Kushwaha"
-git config --global user.email "priyanshukushwaha145@gmail.com"
-## email should be same as github account
-git add . 
-
-git commit -m "Initial commit - STUDENT_MGMNT"
-git remote add origin github-repo-url
-git remote -v
-git branch -M main
-
-## 
-git config --global user.name "Priyanshu Kushwaha"
-## 
-git config --global user.email "priyanshukushwaha145@gmail.com"
-## 
-## email should be same as github account
-git add .
-
-##
 git commit -m "Initial commit - STUDENT_MGMNT"
 ##
 git remote add origin github-repo-url
