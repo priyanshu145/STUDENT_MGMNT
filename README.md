@@ -41,30 +41,9 @@ python manage.py runserver
 
 
 
-git commit -m "Initial commit - STUDENT_MGMNT"
-##
-git remote add origin github-repo-url
-##
-git remote -v
-
-##
-
-git branch -M main
-##
-
-git push -u origin main
 
 
-## making changes in file and then upload it again in github through git
-git status
 
-git add .
-git commit -m "Massage"
 
-##
-git add .
-##
-git commit -m "Massage"
-##
 
 
