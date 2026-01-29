@@ -7,6 +7,6 @@ app_name = 'Authentication'
 urlpatterns = [
      path('student_login/' , views.Student_Login, name = 'student_login'),
      path('admin_login/', views.admin_login, name='admin_login'),
-     path('admin_dash', views.admin_dashboard, name='admin_dashboard'),
-     path('student_dash', views.student_dashboard, name='student_dashboard'),
+     path('admin_dash/', views.admin_dashboard, name='admin_dashboard'),
+     path('student_dash/', views.student_dashboard, name='student_dashboard'),
 ]
